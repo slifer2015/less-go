@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kib357/less-go"
+	"github.com/slifer2015/less-go"
 	"github.com/spf13/cobra"
 	"fmt"
 )

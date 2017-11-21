@@ -1,7 +1,7 @@
 # less-go 
 ## THIS PROJECT IS NO LONGER MAINTAINED, feel free to fork and use as boilerplate for further usages
 
-[![Build Status](https://secure.travis-ci.org/kib357/less-go.png?branch=master)](http://travis-ci.org/kib357/less-go)
+[![Build Status](https://secure.travis-ci.org/slifer2015/less-go.png?branch=master)](http://travis-ci.org/slifer2015/less-go)
 
 [Less](http://lesscss.org/) compiler for [Golang](https://golang.org/)
 
@@ -14,13 +14,13 @@ This project is a work-in-progress, we accept pull requests.
 ## Installation
 
 ```
-    go get github.com/kib357/less-go
+    go get github.com/slifer2015/less-go
 ```
 
 ## Command Line usage
 
 ```
-    cd $GOPATH/src/github.com/kib357/less-go/lessc
+    cd $GOPATH/src/github.com/slifer2015/less-go/lessc
     go get
     go build
     ./lessc --input="inputFile" --output="outputFile"
@@ -43,7 +43,7 @@ More about usage you can see in cli help:
 ## Programmatic usage
 
 ```go
-    import "github.com/kib357/less-go"
+    import "github.com/slifer2015/less-go"
 
     func main() {
         err := less.RenderFile("./styles.less", "./styles.css", map[string]interface{}{"compress": true})

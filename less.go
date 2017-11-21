@@ -3,7 +3,7 @@ package less
 import (
 	"encoding/json"
 	"errors"
-	"gopkg.in/olebedev/go-duktape.v2"
+	"gopkg.in/olebedev/go-duktape.v3"
 	"io/ioutil"
 	"os"
 )
